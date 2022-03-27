@@ -1,0 +1,17 @@
+.Pagination{
+    display: inline-block;
+  }
+.Pagination a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid red;
+}
+.Pagination a:hover:not(.active) {
+    background-color: green;
+}
+.Pagination a.active{
+    background-color:rgb(226, 43, 128);
+color:rgb(226, 198, 43);
+}
